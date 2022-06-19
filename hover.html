@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="FOLIO">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Folio | Home </title>
+    <!-- Css Files -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/slick-slider.css" rel="stylesheet">
+    <link href="css/modal-video.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script>
+
+$(document).ready(function() {
+    try {
+        $('.a,.b,.c').ripples({
+            resolution: 256,
+            perturbance: 0.04
+        });
+    }
+    catch (e) {
+        $('.error').show().text(e);
+    }
+});
+</script>
+<style>
+body { margin: 0; }
+div {
+    position: fixed;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.a {
+    left: 0;
+    top: 0;
+    right: 51%;
+    bottom: 51%;
+    background-size: cover;
+}
+
+.b {
+    left: 51%;
+    top: 25.5%;
+    right: 0;
+    bottom: 25.5%;
+    background-attachment: fixed;
+}
+
+.c {
+    left: 0;
+    top: 51%;
+    right: 51%;
+    bottom: 0;
+    background-size: cover;
+}
+
+.error {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    color: #eee;
+    padding: 20px;
+    display: none;
+}
+</style>
+<body>
+<div class="a" style="background-image:url(https://alpineperfect.com/wp-content/uploads/2019/09/Abstract-Space-space-33308889-1920-1200.jpg)">
+</div>
+
+<!-- <div class="b" style="background-image:url(http://placekitten.com/500/700)">
+</div> -->
+
+<!-- <div class="c" style="background-image:url(http://placekitten.com/600/700)">
+</div> -->
+
+<div class="error"></div>
+<script src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js">
+</script> 
+</body>
+</html>

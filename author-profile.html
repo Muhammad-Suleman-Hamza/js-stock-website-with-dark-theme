@@ -1,0 +1,2888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="FOLIO">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Folio | Author Profile </title>
+    <!-- Css Files -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/slick-slider.css" rel="stylesheet">
+    <link href="css/modal-video.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--// Main Wrapper \\-->
+    <div class="folio-main-wrapper" id="main_section">
+
+        <!--// Header \\-->
+        <header id="folio-header" class="folio-header-two">
+            <div class="header-strip">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="time">
+                                <div class="onoff-section">
+                                    <div class="topstrip-switch">
+                                        <label class="switch">
+                                            <input type="checkbox" id="theme_change" onchange="Theme_change_author_page()"> 
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown notification" style="border: none; float: left;">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-bell"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown_menu " aria-labelledby="navbarDropdown">
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">PKR</a>
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">USD</a>
+                                    </div>
+                                  </div>
+                                <span>Wednesday 19, March 2019 <i class="icon-wifi"></i></span>
+                                <div class="nav-item dropdown block">
+                                    <a class="dropdown-toggle dropdown_menu_background" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              USD
+                                            </a>
+                                            <div class="dropdown-menu dropdown_menu " aria-labelledby="navbarDropdown">
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">PKR</a>
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">USD</a>
+                                            </div>
+                                  </div>
+                            </div>
+                            <ul class="login">
+                                <li class="active"><a href="#">Login</a></li>
+                                <li><a href="#">Register</a></li>
+                            </ul>
+                            <a href="#" class="logo-mub none"><img src="images/outline-logo.png" alt=""></a>
+                            <div class="nav-menu" id="">
+                                <nav class="navbar navbar-expand-lg" id="nav_bar">
+                                  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="fa fa-bars"></span>
+                                  </button>
+
+                                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <form class="form-inline nav-form">
+                                      <input type="search" placeholder="Search..." aria-label="Search"
+                                    id="search_bar" class="search_place_holder search_place_holder_dark_theme">
+                                      <button class="fa fa-search" id="search_icon" type="submit"></button>
+                                    </form>
+                                    <ul class="navbar-nav mr-auto">
+                                      <li class="nav-item active buttel_hidden">
+                                        <a class="nav-link menu_item_hover" id="menu_item1" 
+                                        href="#">Market</a>
+                                      </li>
+                                      <li class="nav-item buttel_hidden">
+                                        <a class="nav-link" id="menu_item2" href="#">News</a>
+                                      </li>
+                                      <li class="nav-item buttel_hidden">
+                                        <a class="nav-link" id="menu_item3" href="#">Menu</a>
+                                      </li>
+                                      <li class="nav-item none">
+                                        <a class="nav-link" id="menu_item4" href="#">Login</a>
+                                      </li>
+                                      <li class="nav-item none">
+                                        <a class="nav-link" id="menu_item5" href="#">Register</a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </nav>
+                                <div class="nav-item dropdown none">
+                                    <a class="dropdown-toggle dropdown_menu_background" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              USD
+                                            </a>
+                                            <div class="dropdown-menu dropdown_menu " aria-labelledby="navbarDropdown">
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">PKR</a>
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">USD</a>
+                                            </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- After Main Bar -->
+            <!-- 1st -->
+            <div class="pricing-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="block">
+                                <li>coin: <span>5264</span> Exchanges: <span>356</span></li>
+                                <li>Market Cap: <span>$273,302,628-2.5%</span> <i style="color: green" class="fa fa-level-up"></i></li>
+                                <li style="padding: 0px 0px 0px 40px">24 Vol: <span>$273,302,628-2.5%</span></li>
+                                <li style="text-align: right;">Dominance: <span>BTC 65.1% ETH 8.26% XRP 4.86%</span></li>
+                            </ul>
+                            <ul class="none">
+                                <li>coin: <span>5264</span> <section>Market Cap: <span>$273,302,628-2.5%</span> <i style="color: green" class="fa fa-level-up"></i></section></li>
+                                <li>Dominance: BTC 65.1% ETH 8.26% XRP 4.86%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd -->
+            <div class="logo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="index.html"><img src="images/logo1.png" alt="" id="upper_logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd -->
+            <div class="clearfix"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="news-slide">
+                           <div class="marquee">
+                            <section><a href=""><img style="margin-bottom: 2px;" src="images/table-img1.png" alt=""> 
+                                <span class="btc_color" style="color: black;">BTC</span>
+                            <small style="color: green; ">$10,366.00 (0.15%)</small> 
+                            <i style="color: green" class="fa fa-sort-asc"></i></a> 
+                            <a href=""><img style="margin-bottom: 2px;" src="images/table-img1.png" alt=""> <span class="btc_color" style="color: black;">BTC</span> <small style="color: red;" class="pink">$10,366.00 (0.15%)</small> 
+                            <i style="color: red;" class="fa fa-sort-desc pink"></i></a><a href="">
+                            <img style="margin-bottom: 2px;" src="images/table-img1.png" alt=""> <span class="btc_color" style="color: black;">BTC</span> <small style="color: green">$10,366.00 (0.15%)</small> 
+                            <i style="color: green"class="fa fa-sort-asc"></i></a> <a href=""><img style="margin-bottom: 2px;" src="images/table-img1.png"
+                            alt=""> <span class="btc_color" style="color: black;">BTC</span> <small style="color: red;" class="pink">$10,366.00 (0.15%)</small> <i
+                            style="color: red;" class="fa fa-sort-desc pink"></i></a></section>
+                            </div>
+                        </div>
+
+                        <div class="add">
+                            <img src="images/add1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--// Header \\-->
+
+        <!--// Main Content \\-->
+        <div class="folio-main-content">
+
+            <!--// Main Section \\-->
+            <div class="folio-main-section auther-res" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="author-wrap">
+                                <div class="author-profile-wrap" id="author_profil_wrap">
+                                    <div class="star-img author_top_section" id="author_top_section">
+                                        <div class="star-img-wrap">
+                                            <!-- <button class="scroll-top" data-scroll="up" type="button"> -->
+                                            <button class="scroll-top" data-scroll="up" type="button">
+                                            <img style="width: 40px;height: 40px;" src="images/top_button_gif.gif">
+                                            </button>
+                                            <figure class="author-profile author_logo author_wrap_image" id="author_profile">
+                                                <span id=""></span>
+                                            </figure>
+                                            <div class="tag-share tags-a">
+                                                <a href="#" class="share display_none">Share</a>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="tag-icon display_none" style="margin-top: 40px;">
+                                                <a><img src="images/p-icon.png" alt="" style=""></a><br>
+                                                <a><img src="images/man.png" alt="" id="dark_theme_men"></a>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="tag-share">
+                                            <a class="display_none  no_action button_border_2" style="margin: 0px;">
+                                            <img src="images/a.png"alt=""> Alexa Rank</a>
+                                            </div>
+                                            <div class="extra display_none" style="margin-top: -35px;">
+                                                <p style="margin-top: -40px;"><b class="no_action">20 post/week</b></p>
+                                                <p style="margin-top: 15px;"><b class="no_action">110k </b></p>
+                                                <p style="margin-top: 22px;"><b class="no_action">12300</b></p>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="app-logo app2 display_none ">
+                                                <ul>
+                                                    <li><a href="#"><img class="app_store_google" src="images/btn1.png" alt=""></a></li>
+                                                    <li><a href="#"><img class="app_store_google" src="images/btn2.png" alt=""></a></li>
+                                                </ul>
+
+                                            </div>
+                                            <!-- in mobile view -->
+                                            <!-- in mobile view -->
+                                            <!-- in mobile view -->
+                                            <!-- 1 -->
+                                            <div class="extra
+                                    section_below_description_in_mobile_view" style="display: none;">
+                                                <div class="ajeeb">
+                                                    <div class="tag-share section_below_description_in_mobile_view_div_2">
+                                                    <a class="section_below_description_in_mobile_view_div_2_item_1 no_action button_border_2">
+                                                    <img src="images/a.png" alt=""
+                                                    class="section_below_description_in_mobile_view_div_2_item_1_sub_item_1 ">
+                                                    Alexa Rank</a>
+                                                    <p class="section_below_description_in_mobile_view_div_2_item_2 no_action">
+                                                    <b>122,777</b></p>
+                                                    </div>
+                                                    <div class="section_below_description_in_mobile_view_div_1">
+                                                        <a
+                                                            class="section_below_description_in_mobile_view_div_1_item_1"><img
+                                                                class="section_below_description_in_mobile_view_div_1_item_1_sub_item_1"
+                                                                src="images/p-icon.png" alt="">
+                                                        </a>
+                                                        <p
+                                                            class="section_below_description_in_mobile_view_div_1_item_2 no_action">
+                                                            <b>20 postt/week</b></p>
+                                                    </div>
+                                                    <!-- 2 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <section>
+                                            <img src="images/star.png" class="author_stars" alt=""
+                                            style="width: 120px">
+                                            <h2 class="author_news_heading no_action">News Website Name</h2>
+                                            <span class="author_country_heading" style="display: none;">Countryyy</span>
+                                            <div class="total_people" style="display: none;">
+                                                <a class="total_people_div_1">
+                                                    <img class="total_people_div_1_sub_item_1 " src="images/man.png" 
+                                                        alt="">
+                                                </a>
+                                                <p class="total_people_div_2 no_action"><b>110k </b></p>
+
+                                            </div>
+                                            <div class="description author_country_description  border_color">
+                                                <h2 class=" no_action">Descriptionn</h2>
+                                                <p class=" no_action">Lorem as Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industry's standard dummy text
+                                                    ever since the 1500s, when an unknown printer took a galley of type
+                                                    and scrambled it to make a type specimen book.</p>
+                                            </div>
+                                        </section>
+                                         <div class="btn_main_class" style="float: left; display: none;">
+                                             <a class=""><img class="btn1_class app_store_google filter" src="images/btn1.png"></a>
+                                             <a class=""><img class="btn2_class app_store_google filter" src="images/btn2.png"></a>
+                                             <div class="tag-share tags-a btn3_main_class"><a class="share btn3_class" style="text-align: center;">Share</a>
+                                             </div>
+                                         </div>       
+                                    </div>
+                                    <div class="author-social" id="author_social">
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-twitter author_social_icons button_border"></a>
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-facebook author_social_icons button_border"></a>
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-telegram author_social_icons button_border"></a>
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-youtube author_social_icons button_border"></a>
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-linkedin author_social_icons button_border"></a>
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-google-plus author_social_icons button_border"></a>
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-reddit-alien author_social_icons button_border"></a>
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-instagram author_social_icons button_border"></a>
+                                        <a href="#" target="_blank" style="color: #1458ab"
+                                            class="fa fa-rss author_social_icons button_border"></a>
+                                    </div>
+                                    <div class="author-list" id="author_list">
+                                        <ul class="">
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.12</p>
+<section id="pop_up_emoji_section_1"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(1);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(1);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(1);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(1);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(1);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                           <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_2"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(2);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(2);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(2);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(2);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(2);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                           <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_3"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+  <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(3);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(3);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(3);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(3);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(3);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_4"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(4);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(4);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(4);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(4);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(4);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_5"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(5);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(5);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(5);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(5);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(5);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_6"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(6);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(6);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(6);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(6);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(6);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_7"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(7);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(7);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(7);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(7);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(7);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                           <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_8"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(8);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(8);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(8);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(8);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(8);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_9"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;"><li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(9);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(9);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(9);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(9);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(9);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_10"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(10);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(10);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(10);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(10);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                        </ul>
+                                        <ul class="a" style="display: none;">
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_11"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(11);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(11);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(11);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(11);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(11);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_12"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(12);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(12);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(12);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(12);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(12);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                           <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_13"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(13);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(13);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(13);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(13);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(13);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_14"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(14);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(14);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(14);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(14);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(14);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_15"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(15);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(15);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(15);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(15);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(15);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_16"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(16);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(16);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(16);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(16);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(16);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_17"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(17);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(17);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(17);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(17);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(17);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_18"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(18);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(18);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(18);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(18);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(18);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_19"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(19);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(19);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(19);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(19);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(19);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_20"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(20);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(20);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(20);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(20);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(20);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                        </ul>
+                                        <div class="center"><a href="javascript:void(0)" id="a" class="simple-btn">Load
+                                                More</a></div>
+                                        <ul class="b" style="display: none;">
+                                           <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_21"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(21);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(21);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(21);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(21);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(21);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_22"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(22);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(22);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(22);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(22);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(22);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_23"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(23);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(23);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(23);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(23);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(23);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_24"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(24);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(24);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(24);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(24);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(24);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_25"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(25);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(25);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(25);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(25);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(25);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_26"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(26);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(26);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(26);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(26);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(26);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_27"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(27);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(27);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(27);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(27);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(27);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                           <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_28"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(28);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(28);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(28);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(28);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(28);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, vestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_29"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(29);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(29);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(29);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(29);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(29);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                            <li>
+                                                <figure>
+                                                    <a href="#" class="image2"><img src="images/author-list-img.jpg"
+                                                            alt=""></a>
+                                                </figure>
+                                                <section class="">
+
+                                                    <p class="align_center3"
+                                                        style="font-family: 'Merriweather'; font-size: 16px;">
+                                                        <b><a class="post_title 
+                                                            post_title" href="#">1Loorem Ipsum Lorem Ipsum
+                                                                is simply</a></b></p>
+                                                    <time class="no_action" style="font-size: 10px;">
+                                                        <a class="post_sub_title_grey  align_center_author"
+                                                            style="font-family: 'Roboto';font-size:11.5px; float: left;margin-right: 4px;font-weight: normal;"
+                                                            href="#">Batisstaa </a>
+                                                        - Jan 21, 2019
+                                                    </time>
+                                                    <p class="news_text no_action" style="font-family: 'Roboto';">asdLorem ipsum
+                                                        dolor sit amet, consectetur adipiscing elit. Etiam eget odio
+                                                        risus. Vestibulum tortor metus, elementum vel condimentum eu,
+                                                        fermentum in ex. Vestibulum eget felis egestas, scvestibulum
+                                                        sapien non, egestas arcu.</p>
+<section id="pop_up_emoji_section_30"
+ style="display: none; margin-bottom: -3%; margin-left: 30px;">
+ <ul class="likes allSides pop_up_color author_emoji_pop_up" style=" width: 130px;">
+<li style=" margin-left: 9px;" onclick="emoji_function_display_none_author_page(30);">
+<img src="images/icon1.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(30);">
+<img src="images/icon2.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(30);">
+<img src="images/icon3.png" alt="" style="width: 20px;">
+</li>
+<li onclick="emoji_function_display_none_author_page(30);">
+<img src="images/icon4.png" alt="" style="width: 20px;">
+</li>
+</ul>
+</section>
+<section class="emoji_section2" style="display: none;">
+<ul class="likes icon_margin_1" onclick="emoji_function_display_block_author_page(30);"style="margin-left:21px; position: relative;">
+<li style="position: absolute; z-index: 4">
+<img src="images/icon1.png" style="width: 16px;">
+</li>
+<li style=" margin-left: 10px;position: absolute; z-index: 3;">
+<img src="images/icon2.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 22px; margin-top:0.5px;position: absolute; z-index: 2">
+<img src="images/icon3.png" alt="" style="width: 16px;">
+</li>
+<li style=" margin-left: 34px;margin-top: 0.855px;position: absolute; z-index: 1">
+<img src="images/icon4.png" alt="" style="width: 18px;">
+</li>
+<li style=" margin-left: 53.1px;margin-top: 1.1px; font-size: 15px;"><a href="#">1234:1</a></li>
+<li class="icon_margin_2 icon_right" style="margin-left: 45px;"><a href="#"><img class="share_img1" src="images/icon6.png" alt=""style="width: 16px;">1</a></li>
+<li><a href="#"><img class="share_img2"  src="images/icon5.png" alt=""style="width: 16px;">2</a></li>
+<li><a href="#"><img class="share_img3"  src="images/new_link.png" alt=""style="width: 16px;">3</a></li>
+<li><a href="#"><img class="share_img4"  src="images/folio.png" alt=""style="width: 16px;">4</a></li>
+</ul>
+</section>
+<section>
+<ul class="likes emoji_section3">
+<li><a href="#"><img src="images/icon1.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon2.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon3.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon4.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon6.png" alt=""> 12</a></li>
+<li><a href="#"><img src="images/icon5.png" alt=""> 127</a></li>
+<li><a href="#"><img src="images/new_link.png" alt=""> 5</a></li>
+<li><a href="#"><img src="images/folio.png" alt=""> 2</a></li>
+</ul>
+</section>
+                                                </section>
+                                            </li>
+                                        </ul>
+                                        <div class="center"><a style="display: none;" href="javascript:void(0)" id="ab"
+                                                class="simple-btn">Load More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3" style="margin-top: 82px;">
+                            <div class="author-sidebar" >
+                                <div class="news-mini-wrap border_color_2">
+                                    <h2 class="fancy-title no_action">Latest news</h2>
+                                    <ul>
+                                        <li>
+                                            <figure><a href="#"><img src="images/mini-news1.jpg" alt=""></a></figure>
+                                            <section class="">
+                                                <a href="#"
+                                                    style="font-family: 'Merriweather'; color: black; font-size: 12px;" class="post_title"><b>Lorem
+                                                        Ipsum has been the industry's dummy'</b></a>
+                                                <time style="font-size: 10px;">
+                                                    <span style="font-family: 'Roboto';">
+                                                        <a class="post_title" style="font-family: 'Roboto';font-size:10px; float: left; 
+                        margin-top:7px; margin-right: 4px;" href="#">BY Johndoe
+                                                        </a></span>
+                                                    - Jan 21, 2019 sad
+                                                </time>
+                                            </section>
+                                        </li>
+                                       <li>
+                                            <figure><a href="#"><img src="images/mini-news1.jpg" alt=""></a></figure>
+                                            <section class="">
+                                                <a href="#"
+                                                    style="font-family: 'Merriweather'; color: black; font-size: 12px;" class="post_title"><b>Lorem
+                                                        Ipsum has been the industry's dummy'</b></a>
+                                                <time style="font-size: 10px;">
+                                                    <span style="font-family: 'Roboto';">
+                                                        <a class="post_title" style="font-family: 'Roboto';font-size:10px; float: left; 
+                        margin-top:7px; margin-right: 4px;" href="#">BY Johndoe
+                                                        </a></span>
+                                                    - Jan 21, 2019 sad
+                                                </time>
+                                            </section>
+                                        </li>
+                                        <li>
+                                            <figure><a href="#"><img src="images/mini-news1.jpg" alt=""></a></figure>
+                                            <section class="">
+                                                <a href="#"
+                                                    style="font-family: 'Merriweather'; color: black; font-size: 12px;" class="post_title"><b>Lorem
+                                                        Ipsum has been the industry's dummy'</b></a>
+                                                <time style="font-size: 10px;">
+                                                    <span style="font-family: 'Roboto';">
+                                                        <a class="post_title" style="font-family: 'Roboto';font-size:10px; float: left; 
+                        margin-top:7px; margin-right: 4px;" href="#">BY Johndoe
+                                                        </a></span>
+                                                    - Jan 21, 2019 sad
+                                                </time>
+                                            </section>
+                                        </li>
+                                       <li>
+                                            <figure><a href="#"><img src="images/mini-news1.jpg" alt=""></a></figure>
+                                            <section class="">
+                                                <a href="#"
+                                                    style="font-family: 'Merriweather'; color: black; font-size: 12px;" class="post_title"><b>Lorem
+                                                        Ipsum has been the industry's dummy'</b></a>
+                                                <time style="font-size: 10px;">
+                                                    <span style="font-family: 'Roboto';">
+                                                        <a class="post_title" style="font-family: 'Roboto';font-size:10px; float: left; 
+                        margin-top:7px; margin-right: 4px;" href="#">BY Johndoe
+                                                        </a></span>
+                                                    - Jan 21, 2019 sad
+                                                </time>
+                                            </section>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="news-form border_color_2">
+                                    <div class="side-app">
+                                        <a href="#" class="ipa">
+                                            <img src="images/app1.png" alt="" id="side_image_1">
+                                            <br>
+                                            <span style="margin-left: 90px">Get</span></a>
+                                        <a href="#" class="ipa">
+                                            <img src="images/app2.png" alt="" id="side_image_2">
+                                            <br>
+                                            <span
+                                                style="border-radius: 2px; padding: 3px 10px 1px; background-color: #109d58; margin: 0px 0px 0 90px; font-size: 10.3px;">install</span></a>
+                                        <h2 class="no_action">Get breaking news</h2>
+                                        <form action="">
+                                            <ul>
+                                                <li>
+                                                    <input type="text" placeholder="First Name...">
+                                                </li>
+                                                <li>
+                                                    <input type="text" placeholder="Email Address...">
+                                                </li>
+                                                <li>
+                                                    <input type="submit" value="Subscribe Now">
+                                                </li>
+                                            </ul>
+                                        </form>
+                                        <a href="#" class="mini-logo"><img src="images/logo.png" alt="" id="side_logo"></a>
+                                        <b>
+                                    <p style="font-family: 'Roboto'; font-size: 12px;" class="no_action">World’s Favorite
+                                        <br> Blockchain & Crypto Aggregator App</p>
+                                </b>
+                                    </div>
+                                </div>
+                                <div class="side-add border_color_2">
+                                    <a href="#"><img src="images/side-add1.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Main Section \\-->
+
+        </div>
+        <!--// Main Content \\-->
+
+        <!--// Footer \\-->        <footer id="folio-footer" class="folio-footer-two">
+            <div class="newsletter-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="newsletter">
+                                <div class="newsletter-text">
+                                    <section>
+                                        <h2>Get breaking news</h2>
+                                        <form action="">
+                                            <input type="text" placeholder="Email">
+                                            <label><input type="submit" value="Subscribe"></label>
+                                        </form>
+                                    </section>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="folio-footer-widget" id="main_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-3 col-6">
+                                    <div class="quick-links">
+                                        <h2 class="footer-title no_action">Legal</h2>
+                                        <ul>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right dark_hover_i" style="font-size: large;"></i>  
+                                         Cookies Policy
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Disclaimer
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Privacy Policy
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Terms of Service
+                                        </a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="quick-links">
+                                        <h2 class="footer-title no_action">Myfolio</h2>
+                                        <ul>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Market
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        News
+                                        </a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="quick-links">
+                                        <h2 class="footer-title no_action">Resources</h2>
+                                        <ul>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right dark_hover_i" style="font-size: large;"></i>  
+                                         Blog
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        My Account
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Press
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Site Map
+                                        </a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="quick-links">
+                                        <h2 class="footer-title no_action">Support</h2>
+                                        <ul>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right dark_hover_i" style="font-size: large;"></i>  
+                                         App Store
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Contact
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Play Store
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        RSS
+                                        </a>
+                                        </li>
+                                        <!-- <li style="margin: 0px; padding: 0px;" class="dark_hover">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Nutritional Information
+                                        </a>
+                                        </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="social-wrap">
+                                      <div class="social-networks">
+                                          <h2 class="footer-title no_action" style="margin: 2px 0 0;">Stay in touch</h2>
+                                          <ul class="social-network">
+                                            <li><a href="#" class="icon-social icons_white white dark_hover_a"></a></li>
+                                            <li><a href="#" class="icon-twitter icons_white white dark_hover_a"></a></li>
+                                            <li><a href="#" class="icon-video icons_white white dark_hover_a"></a></li>
+                                            <li><a href="#" class="icon-instagram icons_white white dark_hover_a"></a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="app-logo">
+                                          <h2 class="footer-title no_action" style="margin: 9px 0 0;">Download</h2>
+                                          <ul>
+                                              <li><a href="#"><img src="images/btn1.png" class="app_store_google" alt=""></a></li>
+                                              <li><a href="#"><img src="images/btn2.png" alt="" class="app_store_google"></a></li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="images/footer-logo.png" id="bottom_logo" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright" id="lower_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <strong>Made With <i class="icon-heart"></i> & BWD</strong>
+                            <p>2019 Copyright  - All Right Reserved Myfolio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--// Footer \\-->
+        <div class="clearfix"></div>
+    </div>
+    <!--// Main Wrapper \\-->
+    <!-- jQuery (necessary for JavaScript plugins) -->
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/slick.slider.min.js"></script>
+    <script type="text/javascript" src="script/jquery-modal-video.min.js"></script>
+    <script type="text/javascript" src="script/functions.js"></script>
+    <script>
+        $('#a').click(function () {
+            $(this).addClass('done');
+            $('.a').slideToggle('slow');
+            $('#ab').addClass('done');
+        })
+        $('#ab').click(function () {
+            $(this).addClass('donea');
+            $('.b').slideToggle('slow');
+        })
+    </script>
+     <script>
+         var x = window.matchMedia("(max-width: 990px)")
+         Theme_change_author_page(x) // Call listener function at run time
+         x.addListener(Theme_change_author_page) // Attach listener function on state changes
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script/scroll.js"></script>
+</body>
+
+</html>

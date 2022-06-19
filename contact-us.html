@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="FOLIO">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Folio | Home </title>
+    <!-- Css Files -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/slick-slider.css" rel="stylesheet">
+    <link href="css/modal-video.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+    <!--// Main Wrapper \\-->
+    <div class="folio-main-wrapper" id="main_section">
+
+        <!--// Header \\-->
+        <header id="folio-header" class="folio-header-two">
+            <div class="header-strip">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="time">
+                                <div class="onoff-section">
+                                    <div class="topstrip-switch">
+                                        <label class="switch">
+                                            <input type="checkbox" id="theme_change" onchange="Theme_change_contact_us_page()"> 
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown notification" style="border: none; float: left;">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-bell"></i>
+                                    </a>
+                                   <div class="dropdown-menu dropdown_menu " aria-labelledby="navbarDropdown">
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">PKR</a>
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">USD</a>
+                                    </div>
+                                  </div>
+                                <span>Wednesday 19, March 2019 <i class="icon-wifi"></i></span>
+                                <div class="nav-item dropdown block">
+                                    <a class="dropdown-toggle dropdown_menu_background" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              USD
+                                            </a>
+                                            <div class="dropdown-menu dropdown_menu " aria-labelledby="navbarDropdown">
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">PKR</a>
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">USD</a>
+                                            </div>
+                                  </div>
+                            </div>
+                            <ul class="login">
+                                <li class="active"><a href="#">Login</a></li>
+                                <li><a href="#">Register</a></li>
+                            </ul>
+                            <a href="#" class="logo-mub none"><img src="images/outline-logo.png" alt=""></a>
+                            <div class="nav-menu" id="">
+                                <nav class="navbar navbar-expand-lg" id="nav_bar">
+                                  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="fa fa-bars"></span>
+                                  </button>
+
+                                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <form class="form-inline nav-form">
+                                      <input type="search" placeholder="Search..." aria-label="Search"
+                                    id="search_bar" class="search_place_holder search_place_holder_dark_theme">
+                                      <button class="fa fa-search" id="search_icon" type="submit"></button>
+                                    </form>
+                                    <ul class="navbar-nav mr-auto">
+                                      <li class="nav-item active buttel_hidden">
+                                        <a class="nav-link menu_item_hover" id="menu_item1" 
+                                        href="#">Market</a>
+                                      </li>
+                                      <li class="nav-item buttel_hidden">
+                                        <a class="nav-link" id="menu_item2" href="#">News</a>
+                                      </li>
+                                      <li class="nav-item buttel_hidden">
+                                        <a class="nav-link" id="menu_item3" href="#">Menu</a>
+                                      </li>
+                                      <li class="nav-item none">
+                                        <a class="nav-link" id="menu_item4" href="#">Login</a>
+                                      </li>
+                                      <li class="nav-item none">
+                                        <a class="nav-link" id="menu_item5" href="#">Register</a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </nav>
+                                <div class="nav-item dropdown none">
+                                   <a class="dropdown-toggle dropdown_menu_background" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              USD
+                                            </a>
+                                            <div class="dropdown-menu dropdown_menu " aria-labelledby="navbarDropdown">
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">PKR</a>
+                                              <a class="dropdown-item dropdown_menu_item dropdown_menu_item_hover" href="#">USD</a>
+                                            </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- After Main Bar -->
+            <!-- 1st -->
+            <div class="pricing-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="block">
+                                <li>coin: <span>5264</span> Exchanges: <span>356</span></li>
+                                <li>Market Cap: <span>$273,302,628-2.5%</span> <i style="color: green" class="fa fa-level-up"></i></li>
+                                <li style="padding: 0px 0px 0px 40px">24 Vol: <span>$273,302,628-2.5%</span></li>
+                                <li style="text-align: right;">Dominance: <span>BTC 65.1% ETH 8.26% XRP 4.86%</span></li>
+                            </ul>
+                            <ul class="none">
+                                <li>coin: <span>5264</span> <section>Market Cap: <span>$273,302,628-2.5%</span> <i style="color: green" class="fa fa-level-up"></i></section></li>
+                                <li>Dominance: BTC 65.1% ETH 8.26% XRP 4.86%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd -->
+            <div class="logo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="index.html"><img src="images/logo1.png" alt="" id="upper_logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd -->
+            <div class="clearfix"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="news-slide">
+                           <div class="marquee">
+<section><a href=""><img style="margin-bottom: 2px;" src="images/table-img1.png" alt=""> 
+    <span class="btc_color" style="color: black;">BTC</span>
+<small style="color: green; ">$10,366.00 (0.15%)</small> 
+<i style="color: green" class="fa fa-sort-asc"></i></a> 
+<a href=""><img style="margin-bottom: 2px;" src="images/table-img1.png" alt=""> <span class="btc_color" style="color: black;">BTC</span> <small style="color: red;" class="pink">$10,366.00 (0.15%)</small> 
+<i style="color: red;" class="fa fa-sort-desc pink"></i></a><a href="">
+<img style="margin-bottom: 2px;" src="images/table-img1.png" alt=""> <span class="btc_color" style="color: black;">BTC</span> <small style="color: green">$10,366.00 (0.15%)</small> 
+<i style="color: green"class="fa fa-sort-asc"></i></a> <a href=""><img style="margin-bottom: 2px;" src="images/table-img1.png"
+alt=""> <span class="btc_color" style="color: black;">BTC</span> <small style="color: red;" class="pink">$10,366.00 (0.15%)</small> <i
+style="color: red;" class="fa fa-sort-desc pink"></i></a></section>
+</div>
+                        </div>
+                        <!-- <div class="add">
+                            <img src="images/add1.jpg" alt="">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- 4th -->
+        <!--// Header \\-->
+
+        <!--// Main Content \\-->
+        <div class="folio-main-content">
+
+            <!--// Main Section \\-->
+            <div class="folio-main-section contact-formfull">
+                <div class="vl" id="horizontal_line"></div>
+                <span class="white2">Or</span>
+                <!-- <span class="v2"></span> -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="contact-form">
+                                <button class="scroll-top" data-scroll="up" type="button">
+                                <img style="width: 40px;height: 40px;" src="images/top_button_gif.gif">
+                                </button>
+                                <!-- <h2 class="title">Contact us</h2> -->
+                                <form action="">
+                                    <ul class=""  style="margin-left: 10%;">
+                                        <li>
+                                            <label class="no_action">First Name <small class="pink">*</small></label>
+                                            <input type="text" style="height: auto; width: 90%;" 
+                                            class="input_field" >
+                                        </li>
+                                        <li>
+                                            <label class="no_action">Last Name</label>
+                                            <input type="text" style="height: auto; width: 90%; "
+                                            class="input_field" >
+                                        </li>
+                                        <li>
+                                            <label class="no_action">Email <small class="pink">*</small></label>
+                                            <input type="email" style="height: auto; width: 90%; "
+                                            class="input_field" >
+                                        </li>
+                                        <li style="margin-bottom: -10px; text-align: center;">
+                                            <label class="no_action">Description <small class="pink">*</small></label>
+                                            <textarea  placeholder=""style="height: auto; width: 90%; "class="input_field" ></textarea>
+                                            <p style="height: auto; width: 90%; color: black;" class="no_action">Please enter the details of the request. Our support staff will respond it as soon as possible.</p>
+                                        </li>
+                                        <li style="margin-left: -5%;"><input type="submit" value="Submit" style="height: 40px; margin-top: -10px;" 
+                                            id="submit" class="submit"></li>
+                                    </ul>
+                                </form>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="folio-table">
+                                <div class="folio-table-cell">
+                                    <div class="contact-social">
+                                        <ul>
+                                            <li><a style="background-color: #516dac;" href="#"><i class="fa fa-facebook"></i> 1777.77 Fans <span>Like</span></a></li><br>
+                                            <li><a style="background-color: #407096;" href="#"><i class="fa fa-instagram"></i> 1777.77 Followers <span>Followers</span></a></li><br>
+                                            <li><a style="background-color: #2ac4f6;" href="#"><i class="fa fa-twitter"></i> 1777.77 Followers <span>Followers</span></a></li><br>
+                                            <li><a style="background-color: #e14f42;" href="#"><i class="fa fa-play"></i> 1777.77 Subscribers <span>Subscribers</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center"><h4 style="font-size: 12px;" class="no_action" id="more_questions">Have more questions? <a href="#" class="white3" style="color: #1c95c5; font-size: 13px; text-transform: uppercase; ">Submit a request</a></h4></div>
+            <!--// Main Section \\-->
+
+        </div>
+        <!-- 5th -->
+        <!--// Main Content \\-->
+
+        <!--// Footer \\-->
+        <footer id="folio-footer" class="folio-footer-two">
+            <div class="newsletter-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="newsletter">
+                                <div class="newsletter-text">
+                                    <section>
+                                        <h2>Get breaking news</h2>
+                                        <form action="">
+                                            <input type="text" placeholder="Email">
+                                            <label><input type="submit" value="Subscribe"></label>
+                                        </form>
+                                    </section>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="folio-footer-widget" id="main_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="quick-links">
+                                        <h2 class="footer-title no_action">Legal</h2>
+                                        <ul>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right dark_hover_i" style="font-size: large;"></i>  
+                                         Cookies Policy
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Disclaimer
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Privacy Policy
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Terms of Service
+                                        </a>
+                                        </li>
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6 col-6">
+                                    <div class="quick-links">
+                                        <h2 class="footer-title no_action">Myfolio</h2>
+                                        <ul>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Market
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        News
+                                        </a>
+                                        </li>
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6 col-6">
+                                    <div class="quick-links">
+                                        <h2 class="footer-title no_action">Resources</h2>
+                                        <ul>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right dark_hover_i" style="font-size: large;"></i>  
+                                         Blog
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        My Account
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Press
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Site Map
+                                        </a>
+                                        </li>
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="quick-links">
+                                        <h2 class="footer-title no_action">Support</h2>
+                                        <ul>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right dark_hover_i" style="font-size: large;"></i>  
+                                         App Store
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Contact
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        Play Store
+                                        </a>
+                                        </li>
+                                        <li style="margin: 0px; padding: 0px;">
+                                        <a href="#" class="white dark_hover_a" style="font-size: 14px;">
+                                        <i class="fa fa-angle-right" style="font-size: large;"></i>  
+                                        RSS
+                                        </a>
+                                        </li>
+                                        
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="social-wrap">
+                                      <div class="social-networks">
+                                          <h2 class="footer-title no_action" style="margin: 2px 0 0;">Stay in touch</h2>
+                                          <ul class="social-network">
+                                            <li><a href="#" class="icon-social icons_white white dark_hover_a"></a></li>
+                                            <li><a href="#" class="icon-twitter icons_white white dark_hover_a"></a></li>
+                                            <li><a href="#" class="icon-video icons_white white dark_hover_a"></a></li>
+                                            <li><a href="#" class="icon-instagram icons_white white dark_hover_a"></a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="app-logo">
+                                          <h2 class="footer-title no_action" style="margin: 9px 0 0;">Download</h2>
+                                          <ul>
+                                              <li><a href="#"><img src="images/btn1.png" class="app_store_google" alt=""></a></li>
+                                              <li><a href="#"><img src="images/btn2.png" alt="" class="app_store_google"></a></li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="images/footer-logo.png" id="bottom_logo" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright" id="lower_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <strong>Made With <i class="icon-heart"></i> & BWD</strong>
+                            <p>2019 Copyright  - All Right Reserved Myfolio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--// Footer \\-->
+        <div class="clearfix"></div>
+    </div>
+    <!--// Main Wrapper \\-->
+    <!-- jQuery (necessary for JavaScript plugins) -->
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/slick.slider.min.js"></script>
+    <script type="text/javascript" src="script/jquery-modal-video.min.js"></script>
+    <script type="text/javascript" src="script/functions.js"></script>
+    <script>
+         var x = window.matchMedia("(max-width: 990px)")
+         Theme_change_contact_us_page(x) // Call listener function at run time
+         x.addListener(Theme_change_contact_us_page) // Attach listener function on state changes
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script/scroll.js"></script>
+</body>
+
+</html>
